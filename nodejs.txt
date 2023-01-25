@@ -1,0 +1,44 @@
+                                   node.js back end for bank server 
+                                  -----------------------------------
+
+                            1.create a folder for server
+                            2.create package.json file npm:init
+                            3.create entry point of server i.e index.js
+                            4.Install express :npm i express
+                               (.gitignore to avoid unwanted files into git) 
+                            5.import express inside index.js(because only index.js will run)    
+                            6.create server app using express 
+                            7.set up port number for server app
+                            8.to resolve api call
+                               -sever-app.http.method(path,call back function)
+                               (Install nodemon for auto compiling node)
+                            9.Install cors (cross origin resource sharing ):npm i cors
+                               - import cors inside index.js
+                               - use cors to define the origin to share the data with server
+                            10. parse json data 
+
+
+                                  Integration of server and mongo db
+                                -------------------------------------
+                        1. Install mongoose - npm i mongoose   
+                        2. create a folder for services then create js file for defining db connection,db.js
+                           - import mongoose in db.js file
+                           - using mongoose define a connection string  
+                           - create model for the project
+
+                           Authorization
+                         ___________________
+
+                        1.json web token - npm i jsonwebtoken
+                        2.Using jsonwebtoken
+                             -generate token for successful login:sign()
+                             -verify token - verify()
+                        3.Middleware
+                            - application specific Middleware
+                            - router specific Middleware     
+
+
+
+
+
+
